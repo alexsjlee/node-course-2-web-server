@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>{{pageTitle}}</title>
+    </head>
+    <body>
+        {{!-- To import a partial, just use a greater than and then the name of the partial file name --}}
+        {{> header}}
+        {{!-- Calling a helper function is like below --}}
+        {{!-- Just the name of the helper function and then a space and then the argument you want to pass through to the helper function --}}
+        <p>{{screamIt welcomeMessage}}</p>
+        {{> footer}}
+    </body>
+</html>
